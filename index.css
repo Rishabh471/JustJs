@@ -6,9 +6,6 @@
     box-sizing: border-box
 }
 
-#container {
-    margin-top: 20px;
-}
 .new-element {
     background-color: lightblue;
     padding: 10px;
@@ -32,4 +29,127 @@
     position: relative;
     background-color: black;
 
+}
+
+.tube1, .tube2, .tube3, .tube4, .tube5{
+    border: 2px solid white;
+    height: 20vh;
+    width: 2vw;
+    border-radius: 0 0 20px 20px;
+}
+
+
+.container{
+    height: 60vh;
+    width: 40vw;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5vh;
+}
+
+.clr1{
+    background-color: blue;
+    height: 4vh;
+    position: relative;
+    top: 15.6vh;
+    border-radius: 0 0 20px 20px;
+}
+
+.clr2{
+    background-color: deeppink;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+
+}
+.clr3{
+    background-color: purple;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+.clr4{
+    background-color: aqua;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+.clr11{
+    position: relative;
+    background-color: purple;
+    height: 4vh;
+    top: 15.6vh;
+    border-radius: 0 0 20px 20px;
+}
+.clr12{
+    background-color: aqua;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+
+.clr13{
+    background-color: aqua;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+
+.clr14{
+    background-color: deeppink;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+
+.clr21{
+    position: relative;
+    background-color: deeppink;
+    height: 4vh;
+    top: 15.6vh;
+    border-radius: 0 0 20px 20px;
+}
+.clr22{
+    background-color: aqua;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+.clr23{
+    background-color: purple;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+.clr24{
+    background-color: blue;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+
+.clr31{
+    position: relative;
+    background-color: blue;
+    height: 4vh;
+    top: 15.6vh;
+    border-radius: 0 0 20px 20px;
+}
+.clr32{
+    background-color: purple;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+.clr33{
+    background-color: blue;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
+}
+.clr34{
+    background-color: deeppink;
+    height: 4vh;
+    position: relative;
+    bottom: 4vh;
 }
